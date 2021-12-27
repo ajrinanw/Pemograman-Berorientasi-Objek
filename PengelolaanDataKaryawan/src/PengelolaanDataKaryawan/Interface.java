@@ -9,6 +9,12 @@ package PengelolaanDataKaryawan;
  *
  * @author Jey
  */
-public class Interface {
+public interface Interface {
+    int usia = 30;
+    String golongan = "A";
     
+    public abstract void tambahKaryawan(Program data);
+    public abstract void hapusKaryawan(String kode);
+    public abstract void cariKaryawan(String kode);
+    public abstract void printKaryawan();
 }
